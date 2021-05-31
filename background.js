@@ -2,6 +2,7 @@
   chrome.webNavigation[ev].addListener(async (evt) => {
     try {
       const data = {
+        eventName: ev,
         url: evt.url,
         ts: evt.timeStamp,
         evt,
