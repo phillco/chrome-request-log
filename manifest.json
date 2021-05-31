@@ -11,5 +11,3 @@
     "service_worker": "background.js"
   }
 }
-
-// https://developer.chrome.com/docs/extensions/reference/webNavigation/
