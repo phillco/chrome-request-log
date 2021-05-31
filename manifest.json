@@ -1,0 +1,12 @@
+{
+  "name": "Phil & Noah's Experiment",
+  "description": "Log tabs",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "webNavigation",
+    "tabs",
+  ]
+}
+
+// https://developer.chrome.com/docs/extensions/reference/webNavigation/
