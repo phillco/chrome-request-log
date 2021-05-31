@@ -8,6 +8,6 @@ post '/' do
   puts "test"
   puts "parameters: #{params}"
   body = JSON.parse(request.body.read)
-  puts "body: #{body}"
+  puts "body: #{JSON.pretty_generate(body)}"
   'OK'
 end
